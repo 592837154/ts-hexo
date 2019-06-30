@@ -8,11 +8,11 @@ script:
 after_script:
   - cd ./public
   - git init
-  - git config user.name "${USERNAME}"
-  - git config user.email "${UESREMAIL}"
+  - git config user.name "zhukai"
+  - git config user.email "592837154@qq.com"
   - git add -A
   - git commit -m "Update documents"
-  - git push --force  "https://${GH_TOKEN}@${GH_REF}" "master:${GH_BRANCH}"
+  - git push --force  "https://${GH_TOKEN}@$https://github.com/592837154/ts-hexo.git" "master:gh-pages"
 branches:
   only:
     - master
