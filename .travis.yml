@@ -12,7 +12,7 @@ after_script:
   - git config user.email "592837154@qq.com"
   - git add -A
   - git commit -m "Update documents"
-  - git push --force  "https://7fa1ce9a8f8640733a36f88e3c3d8cad0bf17bb8@https://github.com/592837154/ts-hexo.git" "master:gh-pages"
+  - git push --force  "https://https://github.com/592837154/ts-hexo.git" "master:gh-pages"
 branches:
   only:
     - master
