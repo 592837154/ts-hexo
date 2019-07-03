@@ -8,7 +8,7 @@ script:
 after_script:
   - cd ./public
   - git init
-  - git config user.name "592837154"
+  - git config user.name "zhukaohome"
   - git config user.email "592837154@qq.com"
   - git add -A
   - git commit -m "Update documents"
